@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background {
+    background-image: url("https://static.onecms.io/wp-content/uploads/sites/38/2017/10/12220128/gettyimages-821752362.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading {
+    color: #313a6d;
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.result {
+    color: green;
+    font-weight: 900;
+}
+
+.username-heading {
+    color: #313a6d;
+    font-weight: 600;
+}
+
+.password-heading {
+    color: #313a6d;
+    font-weight: 600;
+}
+
+.login-text {
+    font-size: 20px;
+    color: #313a6d;
+    font-weight: 600;
+}
+
+.error-message {
+    color: red;
+}
+
+.log-card {
+    width: 300px;
+    height: 500px;
+    background-color: transparent;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px #ec8bf0, -20px -20px 60px rgb(238, 94, 178);
+    padding: 45px;
+}
+
+.log-card input {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    border-radius: 34px
+}
+
+input {
+    background-color: rgb(224, 154, 154);
+}
+
+.submit-button2 {
+    border-style: none;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+button {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    padding: 24px;
+    text-align: center;
+    border: 0;
+    color: white;
+    background-color: #313a6d;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.4s ease-in;
+    z-index: 1;
+
+}
+
+button::before,
+button::after {
+
+    background-color: rgb(224, 154, 154);
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+.submit-button::after {
+    height: 0;
+    left: 0;
+    top: 0;
+    transition-duration: 0.6s;
+    width: 100%;
+
+}
+
+.submit-button:hover::after {
+    height: 100%;
+}
+
+.result-message {
+    color: green;
+    font-family: Sans-Serif;
+    font-size: 20px;
+}
